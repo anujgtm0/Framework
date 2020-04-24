@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UI Automation Suite" duration-ms="9868" started-at="2020-04-24T18:42:11 IST" finished-at="2020-04-24T18:42:21 IST">
+    <groups>
+    </groups>
+    <test name="UI Tests" duration-ms="9868" started-at="2020-04-24T18:42:11 IST" finished-at="2020-04-24T18:42:21 IST">
+      <class name="com.tmz.Framework.UIAutomation.Tests.AddAccount">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.AddAccount@242b836]" name="setup" is-config="true" duration-ms="5" started-at="2020-04-24T18:42:17 IST" finished-at="2020-04-24T18:42:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddAcountTest()[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.AddAccount@242b836]" name="AddAcountTest" duration-ms="3926" started-at="2020-04-24T18:42:17 IST" finished-at="2020-04-24T18:42:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAcountTest -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.AddAccount@242b836]" name="aftermethod" is-config="true" duration-ms="1" started-at="2020-04-24T18:42:21 IST" finished-at="2020-04-24T18:42:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddAcountTest status=SUCCESS method=AddAccount.AddAcountTest()[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.AddAccount@242b836] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.tmz.Framework.UIAutomation.Tests.AddAccount -->
+      <class name="com.tmz.Framework.UIAutomation.Tests.Login">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.Login@2d52216b]" name="initialize" is-config="true" duration-ms="124" started-at="2020-04-24T18:42:11 IST" finished-at="2020-04-24T18:42:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.Login@2d52216b]" name="setup" is-config="true" duration-ms="3684" started-at="2020-04-24T18:42:11 IST" finished-at="2020-04-24T18:42:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.Login@2d52216b]" name="TestLogin" duration-ms="2206" started-at="2020-04-24T18:42:15 IST" finished-at="2020-04-24T18:42:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.Login@2d52216b]" name="aftermethod" is-config="true" duration-ms="5" started-at="2020-04-24T18:42:17 IST" finished-at="2020-04-24T18:42:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestLogin status=SUCCESS method=Login.TestLogin()[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.Login@2d52216b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.tmz.Framework.UIAutomation.Tests.Login@2d52216b]" name="aftersuite" is-config="true" duration-ms="13718" started-at="2020-04-24T18:42:21 IST" finished-at="2020-04-24T18:42:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.tmz.Framework.UIAutomation.Tests.Login -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- UI Automation Suite -->
+</testng-results>

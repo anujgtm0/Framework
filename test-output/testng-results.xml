@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UI Automation Suite" duration-ms="3526" started-at="2020-04-24T13:09:44Z" finished-at="2020-04-24T13:09:48Z">
+    <groups>
+    </groups>
+    <test name="UI Tests" duration-ms="3526" started-at="2020-04-24T13:09:44Z" finished-at="2020-04-24T13:09:48Z">
+      <class name="com.tmz.Framework.APIAutomation.APIMethods.Protocol">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="initialize" is-config="true" duration-ms="180" started-at="2020-04-24T18:39:44Z" finished-at="2020-04-24T18:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="setup" is-config="true" duration-ms="776" started-at="2020-04-24T18:39:44Z" finished-at="2020-04-24T18:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateProtocol()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="CreateProtocol" duration-ms="2290" started-at="2020-04-24T18:39:45Z" finished-at="2020-04-24T18:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProtocol -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="aftermethod" is-config="true" duration-ms="2" started-at="2020-04-24T18:39:48Z" finished-at="2020-04-24T18:39:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateProtocol status=SUCCESS method=Protocol.CreateProtocol()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="UpdateProtocol()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="UpdateProtocol" duration-ms="202" started-at="2020-04-24T18:39:48Z" depends-on-methods="com.tmz.Framework.APIAutomation.APIMethods.Protocol.CreateProtocol" finished-at="2020-04-24T18:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProtocol -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="aftermethod" is-config="true" duration-ms="1" started-at="2020-04-24T18:39:48Z" finished-at="2020-04-24T18:39:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateProtocol status=SUCCESS method=Protocol.UpdateProtocol()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="GetProtocol()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="GetProtocol" duration-ms="83" started-at="2020-04-24T18:39:48Z" depends-on-methods="com.tmz.Framework.APIAutomation.APIMethods.Protocol.UpdateProtocol" finished-at="2020-04-24T18:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetProtocol -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-04-24T18:39:48Z" finished-at="2020-04-24T18:39:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetProtocol status=SUCCESS method=Protocol.GetProtocol()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="DeleteProtocol()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="DeleteProtocol" duration-ms="114" started-at="2020-04-24T18:39:48Z" depends-on-methods="com.tmz.Framework.APIAutomation.APIMethods.Protocol.GetProtocol" finished-at="2020-04-24T18:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProtocol -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="aftermethod" is-config="true" duration-ms="1" started-at="2020-04-24T18:39:48Z" finished-at="2020-04-24T18:39:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteProtocol status=SUCCESS method=Protocol.DeleteProtocol()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.tmz.Framework.APIAutomation.APIMethods.Protocol@4f970963]" name="aftersuite" is-config="true" duration-ms="9286" started-at="2020-04-24T18:39:48Z" finished-at="2020-04-24T18:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.tmz.Framework.APIAutomation.APIMethods.Protocol -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- UI Automation Suite -->
+</testng-results>

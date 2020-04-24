@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UI Automation Suite]">
+  <test name="UI Tests(failed)">
+    <classes>
+      <class name="com.tmz.Framework.UIAutomation.Tests.AddAccount">
+        <methods>
+          <include name="setup"/>
+          <include name="aftermethod"/>
+          <include name="AddAcountTest"/>
+        </methods>
+      </class> <!-- com.tmz.Framework.UIAutomation.Tests.AddAccount -->
+      <class name="com.tmz.Framework.UIAutomation.Tests.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="TestLogin"/>
+          <include name="initialize"/>
+          <include name="aftermethod"/>
+          <include name="aftersuite"/>
+        </methods>
+      </class> <!-- com.tmz.Framework.UIAutomation.Tests.Login -->
+    </classes>
+  </test> <!-- UI Tests(failed) -->
+</suite> <!-- Failed suite [UI Automation Suite] -->
