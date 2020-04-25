@@ -46,13 +46,13 @@ public class BaseClass {
 	 @AfterSuite
 	    public void aftersuite() throws Exception
 	    {
-	    	String Mail_Body="Hi Below is your Test Summary \n "+"Total Test Cases==>"+APIConstants.TotalTC+"\n"+"  Total PASS==>"+APIConstants.PassTC+"\n"+"  Total FAIL==>"+APIConstants.FailTC+"\n"+"  Total SKIPPED==>"+APIConstants.SkipTC+"\n"+
+	    	//String Mail_Body="Hi Below is your Test Summary \n "+"Total Test Cases==>"+APIConstants.TotalTC+"\n"+"  Total PASS==>"+APIConstants.PassTC+"\n"+"  Total FAIL==>"+APIConstants.FailTC+"\n"+"  Total SKIPPED==>"+APIConstants.SkipTC+"\n"+
 	    			"For Full Detail please find attached Status report    \n\n\n\n\n\n\n"+"Regards,\n"+"Anuj Kumar Gautam";
-	    	sm.sendMessage("Hi Below is your Test Summary  "+"Total Test Cases==>"+APIConstants.TotalTC+"  Total PASS==>"+APIConstants.PassTC+"  Total FAIL==>"+APIConstants.FailTC+"  Total SKIPPED==>"+APIConstants.SkipTC);
+	    	//sm.sendMessage("Hi Below is your Test Summary  "+"Total Test Cases==>"+APIConstants.TotalTC+"  Total PASS==>"+APIConstants.PassTC+"  Total FAIL==>"+APIConstants.FailTC+"  Total SKIPPED==>"+APIConstants.SkipTC);
 			extent.flush();
 			//extent.close();
 			
-			mail.sendReport("API Automation Report",Constants.MGR_ID, APIConstants.REPORT_PATH+FileName, Mail_Body);
+			//mail.sendReport("API Automation Report",Constants.MGR_ID, APIConstants.REPORT_PATH+FileName, Mail_Body);
 			
 	    }
 }
