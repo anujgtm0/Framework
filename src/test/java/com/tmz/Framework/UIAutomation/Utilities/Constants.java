@@ -14,7 +14,7 @@ public static int PassTC=0;
 public static int FailTC=0;
 public static int SkipTC=0;
 public static final String File_Path = "D:\\Flamingo\\Framework\\src\\test\\java\\Reports\\";
-public static final String "";
+public static final String  FILE="";
 public static final String AUTH_TOKEN ="";
 public static final String EXTENT_PATH = "D:\\Flamingo\\Framework\\src\\test\\java\\Reports\\UI Automation Reports\\";
 public static final String EXTENT_XMLPATH = "D:\\Flamingo\\Framework\\src\\test\\java\\Reports\\extent-config.xml";
