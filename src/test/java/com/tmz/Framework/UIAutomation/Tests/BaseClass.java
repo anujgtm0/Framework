@@ -11,9 +11,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.tmz.Framework.UIAutomation.Utilities.Constants;
 import com.tmz.Framework.UIAutomation.Utilities.DateTime;
-import com.tmz.Framework.UIAutomation.Utilities.SendSMS;
-import com.tmz.Framework.UIAutomation.Utilities.Sendmail;
-import com.twilio.Twilio;
+
 
 
 public class BaseClass {
@@ -24,8 +22,7 @@ public class BaseClass {
     public static ExtentTest logger;
     DateTime dt= new DateTime();
     String FileName="UI Automation_Report"+dt.Getcurrentdatetime1()+".html";
-	SendSMS sm=new SendSMS();
-	Sendmail mail=new Sendmail();
+	
 	
 	@BeforeSuite(alwaysRun=true)
     public void initialize() throws Exception
@@ -78,13 +75,9 @@ public class BaseClass {
 	 @AfterSuite
 	    public void aftersuite() throws Exception
 	    {
-	    	//String Mail_Body="Hi Below is your Test Summary \n "+"Total Test Cases==>"+Constants.TotalTC+"\n"+"  Total PASS==>"+Constants.PassTC+"\n"+"  Total FAIL==>"+Constants.FailTC+"\n"+"  Total SKIPPED==>"+Constants.SkipTC+"\n"+
-	    			"For Full Detail please find attached Status report    \n\n\n\n\n\n\n"+"Regards,\n"+"Anuj Kumar Gautam";
-	    	//sm.sendMessage("Hi Below is your Test Summary  "+"Total Test Cases==>"+Constants.TotalTC+"  Total PASS==>"+Constants.PassTC+"  Total FAIL==>"+Constants.FailTC+"  Total SKIPPED==>"+Constants.SkipTC);
+	    	
 			extent.flush();
-			//extent.close();
 			
-			//mail.sendReport("UI Automation Report",Constants.MGR_ID, Constants.EXTENT_PATH+FileName, Mail_Body);
 			driver.quit();
 	    }
 }
