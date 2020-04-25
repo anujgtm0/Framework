@@ -28,7 +28,7 @@ public class BaseClass {
     public void initialize() throws Exception
     {
     	System.out.println("File Path is ===>"+Constants.EXTENT_PATH+FileName);
-    	Twilio.init(Constants.ACCOUNT_SID, Constants.AUTH_TOKEN);
+    
     	extent = new ExtentReports (Constants.EXTENT_PATH+FileName, true);
 		 extent
         .addSystemInfo("Host Name", "Tekmindz")
