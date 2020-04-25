@@ -78,13 +78,13 @@ public class BaseClass {
 	 @AfterSuite
 	    public void aftersuite() throws Exception
 	    {
-	    	String Mail_Body="Hi Below is your Test Summary \n "+"Total Test Cases==>"+Constants.TotalTC+"\n"+"  Total PASS==>"+Constants.PassTC+"\n"+"  Total FAIL==>"+Constants.FailTC+"\n"+"  Total SKIPPED==>"+Constants.SkipTC+"\n"+
+	    	//String Mail_Body="Hi Below is your Test Summary \n "+"Total Test Cases==>"+Constants.TotalTC+"\n"+"  Total PASS==>"+Constants.PassTC+"\n"+"  Total FAIL==>"+Constants.FailTC+"\n"+"  Total SKIPPED==>"+Constants.SkipTC+"\n"+
 	    			"For Full Detail please find attached Status report    \n\n\n\n\n\n\n"+"Regards,\n"+"Anuj Kumar Gautam";
-	    	sm.sendMessage("Hi Below is your Test Summary  "+"Total Test Cases==>"+Constants.TotalTC+"  Total PASS==>"+Constants.PassTC+"  Total FAIL==>"+Constants.FailTC+"  Total SKIPPED==>"+Constants.SkipTC);
+	    	//sm.sendMessage("Hi Below is your Test Summary  "+"Total Test Cases==>"+Constants.TotalTC+"  Total PASS==>"+Constants.PassTC+"  Total FAIL==>"+Constants.FailTC+"  Total SKIPPED==>"+Constants.SkipTC);
 			extent.flush();
 			//extent.close();
 			
-			mail.sendReport("UI Automation Report",Constants.MGR_ID, Constants.EXTENT_PATH+FileName, Mail_Body);
+			//mail.sendReport("UI Automation Report",Constants.MGR_ID, Constants.EXTENT_PATH+FileName, Mail_Body);
 			driver.quit();
 	    }
 }
