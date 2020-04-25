@@ -27,7 +27,7 @@ public class Sendmail {
         String to = Manager_ID;
 
         // Sender's email ID needs to be mentioned
-        String from = "anujgtm0@gmail.com";
+        String from = "xxxxxxxxxxx@gmail.com";
 
         // Assuming you are sending email from through gmails smtp
         String host = "smtp.gmail.com";
@@ -46,7 +46,7 @@ public class Sendmail {
 
             protected PasswordAuthentication getPasswordAuthentication() {
 
-                return new PasswordAuthentication("anujgtm0@gmail.com", "April@2019");
+                return new PasswordAuthentication("XXXXXXXXXX@gmail.com", "XXXXXXXXXXXXXXXXX");
 
             }
 
